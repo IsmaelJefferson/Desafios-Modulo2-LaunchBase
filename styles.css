@@ -127,18 +127,60 @@ footer a:hover{
 #Post-area h2{
     color: white;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
-.cards-post{
+#Post-area #cards-area{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 30px auto;
+    margin: 0 auto;
 }
 
 .card{
-    border: 1px solid blue;
     width: 300px;
     height: 450px;
-    margin: 10px auto;
+    margin: 30px auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5%;
+
 }
+
+.img-content img{
+    width: 130%;
+    height: 120%;
+    position: absolute;
+    opacity: 0.7;
+}
+
+
+.title-post{
+    color: white;
+    width: 240px;
+    height: 300px;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 5px;    
+
+}
+
+.autor{
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    margin-left: 5px;
+}
+
+.reading-time{
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    margin-left: 5px;
+
+}
+
+
+
