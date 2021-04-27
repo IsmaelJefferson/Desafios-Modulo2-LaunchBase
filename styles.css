@@ -149,7 +149,7 @@ footer a:hover{
 
 .img-content img{
     width: 130%;
-    height: 120%;
+    height: 100%;
     position: absolute;
     opacity: 0.7;
 }
